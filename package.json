@@ -1,0 +1,22 @@
+{
+  "name": "jenkinsdemo",
+  "version": "1.0.0",
+  "description": "A Jenkins Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theprincipals/jenkinsdemo.git"
+  },
+  "author": "Ryan Ziegler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theprincipals/jenkinsdemo/issues"
+  },
+  "homepage": "https://github.com/theprincipals/jenkinsdemo#readme",
+  "dependencies": {
+    "mocha": "^5.0.1"
+  }
+}
