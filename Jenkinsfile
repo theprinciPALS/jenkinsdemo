@@ -9,7 +9,7 @@ pipeline {
     },
     stage('Build') {
       steps {
-        echo 'Docker building...',
+        echo 'Docker building!',
         sh 'docker build',
         sh 'docker push principals/jenkinsdemo'
       }
