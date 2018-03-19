@@ -6,6 +6,6 @@ RUN     rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-
 RUN     yum install -y npm
 
 ADD . /mycode
-RUN cd src; npm install
+RUN cd mycode; npm install
 EXPOSE 80
 CMD node /mycode/index.js
