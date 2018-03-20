@@ -12,6 +12,7 @@ pipeline {
       steps {
         echo 'Docker building!'
         sh 'docker build .'
+        sh 'docker tag . principals/jenkinsdemo'
         sh 'docker push principals/jenkinsdemo'
       }
     }
