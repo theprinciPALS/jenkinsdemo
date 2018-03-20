@@ -11,8 +11,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Docker building!'
-        sh 'docker build .'
-        sh 'docker tag . principals/jenkinsdemo'
+        sh 'docker build -t prinicpals/jenkinsdemo .'
         sh 'docker push principals/jenkinsdemo'
       }
     }
