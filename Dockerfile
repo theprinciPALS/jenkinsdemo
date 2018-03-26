@@ -1,5 +1,5 @@
 # DOCKER-VERSION 0.3.4
-FROM node:alpine-9
+FROM node:9.9-slim
 
 ADD . /mycode
 RUN cd mycode; npm install
